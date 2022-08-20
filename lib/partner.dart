@@ -57,28 +57,31 @@ class _MyPartnerState extends State<MyPartner> {
                   'Thinley Pelzang',
                   style: TextStyle(
                       color: Colors.white,
-                      fontSize: 40,
+                      fontSize: 30,
                       fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
                   height: 10,
                 ),
                 Text(
+                  'Software Engineer',
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 40,
+                      fontWeight: FontWeight.bold),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Text(
                   '(pelzangtp@gmail.com)',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 30,
+                    fontSize: 20,
                   ),
                 ),
                 SizedBox(
                   height: 2,
-                ),
-                Text(
-                  'Software Engineer',
-                  style: TextStyle(color: Colors.white, fontSize: 20),
-                ),
-                SizedBox(
-                  height: 20,
                 ),
                 SizedBox(
                   width: 120,
