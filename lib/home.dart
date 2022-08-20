@@ -86,6 +86,18 @@ class _MyHomeState extends State<MyHome> {
                 },
               ),
               value: 2,
+            ),
+            PopupMenuItem(
+              child: TextButton(
+                child: Text(
+                  'Partner',
+                  style: TextStyle(color: Colors.white),
+                ),
+                onPressed: () {
+                  Navigator.pushNamed(context, 'about');
+                },
+              ),
+              value: 3,
             )
           ],
         ),
@@ -125,7 +137,7 @@ class _MyHomeState extends State<MyHome> {
                   },
                   blendMode: BlendMode.dstIn,
                   child: Image.asset(
-                    'assets/tp.png',
+                    'assets/ty.png',
                     height: 400,
                     fit: BoxFit.contain,
                   ),
@@ -137,7 +149,7 @@ class _MyHomeState extends State<MyHome> {
                     top: MediaQuery.of(context).size.height * 0.49),
                 child: Column(children: [
                   Text(
-                    'Thinley Pelzang',
+                    'Tshering Yangden',
                     style: TextStyle(
                         fontFamily: "Soho",
                         color: Colors.white,
@@ -148,7 +160,7 @@ class _MyHomeState extends State<MyHome> {
                     height: 2,
                   ),
                   Text(
-                    'Software Developer',
+                    'UX Engineer',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,
@@ -173,9 +185,9 @@ class _MyHomeState extends State<MyHome> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    myAchiev('13', ' Projects'),
+                    myAchiev('7', ' Projects'),
                     myAchiev('7', ' Client'),
-                    myAchiev('50', ' Messages')
+                    myAchiev('1', ' Partner')
                   ],
                 ),
                 //Specialized text aligment
@@ -183,7 +195,7 @@ class _MyHomeState extends State<MyHome> {
                   height: 30,
                 ),
                 Text(
-                  'Specialized In',
+                  'Expert In',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 //gap bwt specialed and container
@@ -209,9 +221,9 @@ class _MyHomeState extends State<MyHome> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        mySpec(Icons.android, 'Andriod'),
-                        mySpec(Icons.cloud, 'Kubernetes'),
-                        mySpec(Icons.wordpress, 'Wordpress')
+                        mySpec(Icons.computer, 'Windows'),
+                        mySpec(Icons.computer, 'Mac OS'),
+                        mySpec(Icons.gamepad, 'Ubuntu')
                       ],
                     )
                   ],
@@ -224,8 +236,8 @@ class _MyHomeState extends State<MyHome> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        mySpec(Icons.web, 'Website'),
-                        mySpec(Icons.code, 'coding'),
+                        mySpec(Icons.html, 'HTML'),
+                        mySpec(Icons.css_sharp, 'CSS'),
                         mySpec(Icons.javascript, 'Scripting')
                       ],
                     )
@@ -239,9 +251,9 @@ class _MyHomeState extends State<MyHome> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        mySpec(Icons.computer, 'Windows'),
-                        mySpec(Icons.comment, 'CMD'),
-                        mySpec(Icons.gamepad, 'Linux')
+                        mySpec(Icons.adobe, 'Adobe'),
+                        mySpec(Icons.density_large_outlined, 'Figma'),
+                        mySpec(Icons.photo, 'PhotoShop')
                       ],
                     )
                   ],

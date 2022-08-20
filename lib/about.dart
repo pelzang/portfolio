@@ -39,7 +39,7 @@ class _MyAboutState extends State<MyAbout> {
                 },
                 blendMode: BlendMode.dstIn,
                 child: Image.asset(
-                  'assets/tp.png',
+                  'assets/ty.png',
                   height: 400,
                   fit: BoxFit.contain,
                 ),
@@ -54,27 +54,27 @@ class _MyAboutState extends State<MyAbout> {
                   height: 10,
                 ),
                 Text(
-                  'Hello I am',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 30,
-                  ),
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-                Text(
-                  'Thinley Pelzang',
+                  'Tshering Yangden',
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 40,
                       fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
+                  height: 10,
+                ),
+                Text(
+                  '(tyangden223@gmail.com)',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 30,
+                  ),
+                ),
+                SizedBox(
                   height: 2,
                 ),
                 Text(
-                  'Software Developer',
+                  'UX Engineer',
                   style: TextStyle(color: Colors.white, fontSize: 20),
                 ),
                 SizedBox(

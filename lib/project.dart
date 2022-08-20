@@ -95,14 +95,15 @@ class _MyProjectState extends State<MyProject> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              projetCard(
-                  'FLUTTER', 'Click 2 Code', 'An online code compiler', '10'),
-              projetCard('JAVA', 'Game', 'Tictoc', '9'),
-              projetCard('FLUTTER', 'Consultancy firm',
-                  'Takin Education Consultancy.', '8'),
-              projetCard('laravel', 'ECMS', 'WebApp.', '7'),
-              projetCard(
-                  'FLUTTER', 'Click 2 Code', 'An online code compiler', '10')
+              projetCard('FIGMA', 'Click to View', ' My Designs', '10'),
+              projetCard('FIGMA', 'DRIVE', 'Water Project', '9'),
+              projetCard('UI/UX', 'Boder Management', 'BMS', '9'),
+              projetCard('Designer', 'SELISE', 'Healthcare management', '8'),
+              projetCard('Designer', 'SELISE', 'Recruitment Portal', '8'),
+              projetCard('UI/UX', 'NDI', 'NDI App', '8'),
+              projetCard('Designer', 'DHI', 'PMS', '8'),
+              projetCard('Adobe XD', 'ECMS(Website)', 'Designer', '7'),
+              projetCard('DRIBBLE', 'Click to View', 'My Desings', '10')
             ],
           ),
         ),

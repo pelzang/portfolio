@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/about.dart';
 import 'package:portfolio/home.dart';
+import 'package:portfolio/partner.dart';
 import 'package:portfolio/project.dart';
 
 void main() {
@@ -11,7 +12,8 @@ void main() {
     routes: {
       'home': (context) => MyHome(),
       'about': (context) => MyAbout(),
-      'project': (context) => MyProject()
+      'project': (context) => MyProject(),
+      'partner': (context) => MyPartner(),
     },
   ));
 }
